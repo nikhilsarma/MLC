@@ -3,7 +3,7 @@ np.random.seed(2)
 def foo():
     X = np.array([ [0,0,1],[0,1,1],[1,0,1],[1,1,1] ])
     y = np.array([[0,1,1,0]]).T
-    syn0 = np.random.random((3,3)) 
+    syn0 = np.random.random((3,3))
     syn1 = np.random.random((3,1))
     #np.random.seed(2)
     for j in xrange(10000):
@@ -17,3 +17,5 @@ def foo():
 
 for _ in range(2):
     print foo()
+
+print "Hurrayyyy"
